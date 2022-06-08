@@ -1,0 +1,164 @@
+BasicInfo:
+  FirstName: Wade
+  LastName: Rockhold
+  Photo: img/WadeRockhold.jpg
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: wade@wadefade.com
+    - Icon: fas fa-globe
+      Info: wadefade.com
+    - Icon: fas fa-map-marker-alt
+      Info: USA
+
+Profile: Senior Application Software Developer C# ASP.NET 6 CORE MVC RAZOR PAGES Web Development, UI/UX, Project Management, and Agile
+
+Experience:
+  - Employer: Parallon
+    Place: Nashville, TN
+    Positions:
+      - Title: Consulting Solution Engineer
+        Date: Jun 2017 - Present
+        Jobs:
+          - Role: Architect
+            Details:
+              - Designed an event driven solution to replace an n-tier web API project
+              - Created solution to support local development from database to RabbitMQ
+              - Rewrote solution to support local database versioning strategy with AliaSQL
+              - Rewrote a legacy C# web API and cut down a 40 min request to 4 min.
+              - Replaced legacy stored procedure implementation with Entity Framework 6
+              - Designed new UI layouts with Balsamiq
+              - Documented infrastructure install steps to support onboarding
+              - Designed a fully automated testing suite with Unit Tests, Integration Tests, and Selenium Tests
+              - Redesigned database structure for easier Entity Framework 6 modeling
+              - Designed application solution for safe password handling in services
+          - Role: DevOps
+            Details:
+              - Standardized existing deployment strategy to be fully automated in Team Foundation Server
+              - Transitioned off of TFS VS to TFS GIT
+              - Designed branching strategy that integrated with TFS GIT's CI to fully automate deployments
+              - Design MVC solution to have 3 different projects deployable to 3 separate locations
+              - Implemented Selenium Tests to run post deployment
+          - Role: Developer
+            Details:
+              - Wrote .NET C# MVC 5 application with Mediatr and Structuremap
+              - Model binding all requests to allow Fluent Validation to handle requests
+              - Created Windows Service Console app with TopShelf and StructureMap for consumers
+              - Implemented an EasyNetQ AutoSubscriber that auto bound all consumers
+              - Wrote test harness for Unit and Selenium Tests
+          - Role: Scrum Master
+            Details:
+              - Development agile solution for the team
+              - Led morning scrums
+              - Guided team to develop Definition of Done
+              - Provided training on the roles of a Product Owner
+              - Developed and maintained a forecast with best case/worst case average trends
+        Badges: ['.NET','C#', 'Azure', 'MVC', 'Javascript', 'SQL', 'HTML', 'UX', 'CSS', 'Agile']
+  - Employer: Envolve PeopleCare
+    Place: Nashville, TN
+    Positions:
+      - Title: Senior Application Software Developer
+        Date: Mar 2011 - May 2017
+        Jobs:
+          - Role: 
+            Details:
+              - Developed WebApi 2 using HTTP Auth to import and validate Health Assessments in C#
+              - Created a custom email application in C# that handled automated emails using Razor templates
+              - Created scheduled console commands to import or update content in C# using a JSON object daily
+              - Setup a Health Assessment using Require.js and Jasmine for unit testing
+              - Briefly helped setup new SPA application using Angular.js
+              - Wrote LINQ extensively for querying and updating
+              - Used nhibernate and Entity Framework as an ORM
+              - Utilized Query analyzer to trace connections to optimize requests
+              - Used Team City for our automated deploys across dev/qa/stg
+              - Implemented RabbitMQ messaging for a multitude of application-wide uses
+              - Maintained Webservice endpoints for cross application communication
+              - Upgraded many internal applications from MVC3 to MVC5
+              - Developed Unit Tests using Machine Spec, NUnit, and Jasmine
+              - Facilitated creating stories for the backlog by working closely with product owners
+              - Used Balsamiq to design wireframes to demonstrate UI/UX solutions for requested stories
+        Badges: ['.NET', 'C#', 'Team City', 'MVC', 'HTML', 'CSS', 'SASS', 'UX', 'SQL']
+  - Employer: Good Sam Family (Good Sam Club)
+    Place: Bowling Green, KY
+    Positions:
+      - Title: Web Developer II
+        Date: Nov 2003 - Mar 2011
+        Jobs:
+          - Role:
+            Details:
+              - Developed modular poll controls across a multitude of ASP.net sites with a centralized MS SQL database.
+              - Developed a .NET application giveaway module which hooks into multiple websites.
+              - Worked with team to build a community and trip routing application in ASP.net with C#.
+              - Created dynamic chain selects to vote on specific campgrounds in .NET with AJAX.
+              - Developed web applications in ASP.net with C# to serve articles and sell services & products.
+              - Scheduled jobs C# applications to deploy in UC4 on Windows Server 2008.
+              - Perform routine maintenance on multiple ASP.net with C# web applications.
+              - Familiar with setting up .NET sites in IIS7 and debugging on a custom website.
+              - Maintained web application from .NET Framework 2.0 through 3.5.
+              - Familiar with Foxcop validation plugin for C# applications.
+              - Created XML files from MS SQL query results in C#.
+              - Modified ASP.net with C# web service import to log errors when reading both text and XML files from FTP.
+              - Manage code release through Team Foundation on regular basis.
+              - Self-managed projects from design to deployment utilizing agile development.
+              - Redesign high profile details page heavily utilizing JQuery.
+              - Lead a team in developing UX/UI elements on a high profile ecommerce website.
+              - Responsible for cross-browser CSS testing across 50+ sites.
+              - Themed and skinned external PHP sites consisting of Wordpress, various communities, and micro sites.
+              - Maintain multiple Coldfusion websites from service requests for regular maintenance.
+              - Implemented Google Webmaster Tools for A/B Testing and Multivariate testing.
+        Badges: ['ASP.NET', 'Webforms', 'C#', 'ColdFusion', 'SQL', 'Google Analytics', 'Adobe Acrobat']
+
+Education:
+  - Course: Computer Science, Computer Information Systems, Art Minor
+    Place: Western Kentucky University
+    Date: Sep 2012 - Nov 2017
+    Details: Continued with C++ and math cources till the pivot to CIS which was more business oriented in the tech sector 
+
+  - Course: Computer Science, Math Minor
+    Place: Tennessee Technological University
+    Date: Aug 2000 - Jan 2000
+    Details: Focus was math classes and Java
+
+Skills:
+  - Family: Programming
+    Items:
+      - C#
+      - .NET
+      - Javascript
+      - CSS
+      - SASS
+      - SQL
+      - PHP
+      - MySQL
+      - Powershell
+  - Family: Frameworks
+    Items:
+      - MVC
+      - Hugo
+      - React
+      - Selinium
+  - Family: Developer Tools
+    Items:
+      - Git
+      - Azure
+      - Visual Studio
+      - Resharper
+      - SQL Server Profiler
+  - Family: Misc
+    Items:
+      - Beyond Compare
+      - Balsamiq
+
+Languages:
+  - Name: English
+    Level: Native
+  
+Diplomas:
+  - Bachelors of Science (2007)
+
+Interests:
+  - Gardening
+  - Cooking
+  - Running
+  - Board Games
+  - Video Games
+  - Woodworking
