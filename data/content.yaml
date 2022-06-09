@@ -24,6 +24,8 @@ Experience:
         Jobs:
           - Role: Architect
             Details:
+              - Setup Publisher/Subscriber functions across Microsoft Event Hub to update Azure SQL DB with EventTriggers through Entity Framework Core
+              - Designed Enterprise Ops solution for clearing exceptions on a daily basis without having to write SQL
               - Designed an event driven solution to replace an n-tier web API project
               - Created solution to support local development from database to RabbitMQ
               - Rewrote solution to support local database versioning strategy with AliaSQL
@@ -34,23 +36,35 @@ Experience:
               - Designed a fully automated testing suite with Unit Tests, Integration Tests, and Selenium Tests
               - Redesigned database structure for easier Entity Framework 6 modeling
               - Designed application solution for safe password handling in services
-          - Role: DevOps
-            Details:
-              - Standardized existing deployment strategy to be fully automated in Team Foundation Server
-              - Transitioned off of TFS VS to TFS GIT
-              - Designed branching strategy that integrated with TFS GIT's CI to fully automate deployments
-              - Design MVC solution to have 3 different projects deployable to 3 separate locations
-              - Implemented Selenium Tests to run post deployment
           - Role: Developer
             Details:
+              - Created a C# email templating engine that can email alerts from Azure Functions through SMTP or Microsoft Graph APIs
+              - Hooked up service priniciples to app services to accomodate Microsoft AD authentication with Azure AD
+              - Added Azure AD authentication to websites to generate JSON Web Tokens for authorization with Microsoft Graph APIs
+              - Created a .NET 6 Razor Page web application using Datatables to facilitate bulk editing of data across databases/APIs
+              - Created a .NET 6 Azure Timer Function that polled for changes from a Sharepoint API
+              - Developed a .NET 5 console that accepted messages from a queue to move file across the network
               - Wrote .NET C# MVC 5 application with Mediatr and Structuremap
               - Model binding all requests to allow Fluent Validation to handle requests
               - Created Windows Service Console app with TopShelf and StructureMap for consumers
               - Implemented an EasyNetQ AutoSubscriber that auto bound all consumers
               - Wrote test harness for Unit and Selenium Tests
+          - Role: DevOps
+            Details:
+              - Deployed functions using Azure CLI to log in and modify rules to access VNET through a YAML pipeline
+              - Deployed .NET 5/.NET 6 with custom YAML to Microsoft Azure Cloud
+              - Migrated from Github Enterprise to Github isolated seemlessly
+              - Standardized existing deployment strategy to be fully automated in Team Foundation Server
+              - Transitioned off of TFS VS to TFS GIT
+              - Designed branching strategy that integrated with TFS GIT's CI to fully automate deployments
+              - Design MVC solution to have 3 different projects deployable to 3 separate locations
+              - Implemented Selenium Tests to run post deployment
           - Role: Scrum Master
             Details:
-              - Development agile solution for the team
+              - Created a document for metrics the current Azure DevOps was able to show to facilitate our forming/storming/norming of teams
+              - Helped form a team through and teach Agile practices to normalize work loads 
+              - Developed a template of questions to ask the team when designing a solution to help drive estimates
+              - Developed agile solution for several teams
               - Led morning scrums
               - Guided team to develop Definition of Done
               - Provided training on the roles of a Product Owner
