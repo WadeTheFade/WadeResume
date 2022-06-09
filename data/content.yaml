@@ -6,11 +6,14 @@ BasicInfo:
     - Icon: fas fa-envelope
       Info: wade@wadefade.com
     - Icon: fas fa-globe
-      Info: wadefade.com
+      Info: <a href="https://www.wadefade.com">wadefade.com</a>
+    - Icon: fab fa-linkedin-in
+      Info: <a href="https://www.linkedin.com/in/wadefade" target="_blank">www.linkedin.com/in/wadefade</a>
+      
     - Icon: fas fa-map-marker-alt
-      Info: USA
+      Info: Colorado, USA
 
-Profile: Senior Application Software Developer C# ASP.NET 6 CORE MVC RAZOR PAGES Web Development, UI/UX, Project Management, and Agile
+Profile: I thoroughly enjoy application development. Working very close with business/product owners and being part of the process from design to implementation is very rewarding and helps ensure a great UX for the end-user. 
 
 Experience:
   - Employer: Parallon
@@ -111,7 +114,7 @@ Education:
   - Course: Computer Science, Computer Information Systems, Art Minor
     Place: Western Kentucky University
     Date: Sep 2012 - Nov 2017
-    Details: Continued with C++ and math cources till the pivot to CIS which was more business oriented in the tech sector 
+    Details: Continued with C++ and math courses till the pivot to CIS which was more business oriented in the tech sector 
 
   - Course: Computer Science, Math Minor
     Place: Tennessee Technological University
@@ -142,6 +145,7 @@ Skills:
       - Azure
       - Visual Studio
       - Resharper
+      - SSMS
       - SQL Server Profiler
   - Family: Misc
     Items:
@@ -162,3 +166,9 @@ Interests:
   - Board Games
   - Video Games
   - Woodworking
+
+Stamps:
+  - Name: Work
+    Image: img/GoldOrangeBlueGreen.png
+  - Name: Home
+    Image: img/GreenGoldBlueOrange.png

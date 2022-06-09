@@ -46,3 +46,8 @@ body {
     color: $color-light;
     background-color: darken(rgba($color-primary, 0.6), 10%);
 }
+
+a {
+    color: $color-primary;
+    text-decoration: none;
+}
