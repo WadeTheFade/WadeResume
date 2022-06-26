@@ -6,10 +6,9 @@ BasicInfo:
     - Icon: fas fa-envelope
       Info: wade@wadefade.com
     - Icon: fas fa-globe
-      Info: <a href="https://www.wadefade.com">wadefade.com</a>
+      Info: <a href="https://wade.rockhold.me">wade.rockhold.me</a>
     - Icon: fab fa-linkedin-in
       Info: <a href="https://www.linkedin.com/in/wadefade" target="_blank">www.linkedin.com/in/wadefade</a>
-      
     - Icon: fas fa-map-marker-alt
       Info: Colorado, USA
 
