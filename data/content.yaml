@@ -9,6 +9,8 @@ BasicInfo:
       Info: <a href="https://wade.rockhold.me">wade.rockhold.me</a>
     - Icon: fab fa-linkedin-in
       Info: <a href="https://www.linkedin.com/in/wadefade" target="_blank">www.linkedin.com/in/wadefade</a>
+    - Icon: fab fa-github
+      Info: <a href="https://github.com/WadeTheFade" target="_blank">github.com/WadeTheFade</a>
     - Icon: fas fa-map-marker-alt
       Info: Colorado, USA
 
