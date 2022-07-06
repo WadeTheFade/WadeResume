@@ -10,7 +10,7 @@
 
         @media screen {
             &::after {
-                content: '2022 © wadefade.com   |   All information in this resume is true and correct to the best of my knowledge and belief.';
+                content: '2022 © wade.rockhold.me   |   All information in this resume is true and correct to the best of my knowledge and belief.';
                 height: 4rem;
                 width: 60%;
                 position: absolute;
@@ -18,6 +18,12 @@
                 color: darken($color-light, 10%);
             }
         }
+        @media print {
+            float: none;
+            width: 100%;
+            height: 100%;
+        }
+
     }
 
     &__right {
@@ -31,5 +37,10 @@
         right: 1rem;
 
         @include shadow(0.5);
+
+        @media print {
+            display: none;
+
+        }
     }
 }

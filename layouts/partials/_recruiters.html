@@ -1,0 +1,17 @@
+{{ if .BasicInfo.Recruiters }}
+<div class="sideSection">
+    <div class="sideSection__heading">
+        <h2 class="sideSection__title">PASS ME ALONG</h2>
+    </div>
+    <div class="sideSection__content">
+        <ul class="recruiters">
+            <li class="recruiters__item">
+                <button class="btn" onclick="window.print();return false;"><i class="fa fa-print"></i><br/>Print</button>
+            </li>
+            {{ range .BasicInfo.Recruiters }}
+            <button class="btn"><i class="{{ .Icon }}"></i> <a href="{{ .Link | safeHTML}}"><br/>{{ .Text }}</a></button>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}

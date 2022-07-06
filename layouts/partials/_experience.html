@@ -22,13 +22,16 @@
                         <h3 class="experience__date">{{ .Date | safeHTML }}</h3>
                     </div>
                     {{ range .Jobs }}
-                    <h4 class="">{{ .Role | safeHTML }}</h4>
-                    <ul>
-                        {{ range .Details }}
-                        <li class="experience__bullet">{{ . }}</li>
-                        {{ end }}
-                    </ul>
+                    <div class="experience__roles">
+                        <h4 class="">{{ .Role | safeHTML }}</h4>
+                        <ul>
+                            {{ range .Details }}
+                            <li class="experience__bullet">{{ . }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
                     {{ end }}
+                    
                     <div class="experience__badges">
                         <ul>
                             {{ range .Badges }}

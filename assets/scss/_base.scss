@@ -9,8 +9,10 @@
 html {
     font-size: 62.5%;
     background: $color-page-background url('img/bg.jpg') no-repeat top center;
+    
     @media print {
         background-color: $color-light;
+        background-image: none;
     }
 }
 
@@ -37,7 +39,7 @@ body {
 
 @media print {
     @page {
-        margin: 0;
+        margin: 1em 0em;
         size: A4;
     }
 }

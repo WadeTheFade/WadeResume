@@ -1,7 +1,7 @@
 BasicInfo:
   FirstName: Wade
   LastName: Rockhold
-  Photo: img/WadeRockhold.jpg
+  Photo: https://avatars.githubusercontent.com/u/3236063
   Contacts:
     - Icon: fas fa-envelope
       Info: wade@wadefade.com
@@ -13,6 +13,10 @@ BasicInfo:
       Info: <a href="https://github.com/WadeTheFade" target="_blank">github.com/WadeTheFade</a>
     - Icon: fas fa-map-marker-alt
       Info: Colorado, USA
+  Recruiters:
+    - Icon: fa fa-file-pdf
+      Text: PDF
+      Link: Wade.Rockhold.pdf
 
 Profile: I thoroughly enjoy application development. Working very close with business/product owners and being part of the process from design to implementation is very rewarding and helps ensure a great UX for the end-user. 
 
@@ -41,10 +45,12 @@ Experience:
             Details:
               - Created a C# email templating engine that can email alerts from Azure Functions through SMTP or Microsoft Graph APIs
               - Hooked up service priniciples to app services to accomodate Microsoft AD authentication with Azure AD
+              - Registered Sharepoint subscriptions through Azure authorization for a webhook to Event Hubs
               - Added Azure AD authentication to websites to generate JSON Web Tokens for authorization with Microsoft Graph APIs
               - Created a .NET 6 Razor Page web application using Datatables to facilitate bulk editing of data across databases/APIs
               - Created a .NET 6 Azure Timer Function that polled for changes from a Sharepoint API
               - Developed a .NET 5 console that accepted messages from a queue to move file across the network
+              - Modeled and Created PowerBI reports with custom DAX for use across departments from data tracked in extensive logs
               - Wrote .NET C# MVC 5 application with Mediatr and Structuremap
               - Model binding all requests to allow Fluent Validation to handle requests
               - Created Windows Service Console app with TopShelf and StructureMap for consumers
@@ -54,6 +60,7 @@ Experience:
             Details:
               - Deployed functions using Azure CLI to log in and modify rules to access VNET through a YAML pipeline
               - Deployed .NET 5/.NET 6 with custom YAML to Microsoft Azure Cloud
+              - Created documentation for developer workflows for GIT training
               - Migrated from Github Enterprise to Github isolated seemlessly
               - Standardized existing deployment strategy to be fully automated in Team Foundation Server
               - Transitioned off of TFS VS to TFS GIT
@@ -148,6 +155,7 @@ Skills:
       - PHP
       - MySQL
       - Powershell
+      - DAX
   - Family: Frameworks
     Items:
       - MVC
@@ -162,10 +170,12 @@ Skills:
       - Resharper
       - SSMS
       - SQL Server Profiler
+      - 
   - Family: Misc
     Items:
       - Beyond Compare
       - Balsamiq
+      - PowerBI
 
 Languages:
   - Name: English
