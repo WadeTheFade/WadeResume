@@ -37,14 +37,14 @@ Experience:
               - Rewrote a legacy C# web API and cut down a 40 min request to 4 min.
               - Replaced legacy stored procedure implementation with Entity Framework 6
               - Designed new UI layouts with Balsamiq
-              - Documented infrastructure install steps to support onboarding
+              - Documented infrastructure install steps to support on-boarding
               - Designed a fully automated testing suite with Unit Tests, Integration Tests, and Selenium Tests
               - Redesigned database structure for easier Entity Framework 6 modeling
               - Designed application solution for safe password handling in services
           - Role: Developer
             Details:
               - Created a C# email templating engine that can email alerts from Azure Functions through SMTP or Microsoft Graph APIs
-              - Hooked up service priniciples to app services to accomodate Microsoft AD authentication with Azure AD
+              - Hooked up service principles to app services to accommodate Microsoft AD authentication with Azure AD
               - Registered Sharepoint subscriptions through Azure authorization for a webhook to Event Hubs
               - Added Azure AD authentication to websites to generate JSON Web Tokens for authorization with Microsoft Graph APIs
               - Created a .NET 6 Razor Page web application using Datatables to facilitate bulk editing of data across databases/APIs
@@ -61,11 +61,11 @@ Experience:
               - Deployed functions using Azure CLI to log in and modify rules to access VNET through a YAML pipeline
               - Deployed .NET 5/.NET 6 with custom YAML to Microsoft Azure Cloud
               - Created documentation for developer workflows for GIT training
-              - Migrated from Github Enterprise to Github isolated seemlessly
+              - Migrated from Github Enterprise to Github isolated seamlessly
               - Standardized existing deployment strategy to be fully automated in Team Foundation Server
               - Transitioned off of TFS VS to TFS GIT
               - Designed branching strategy that integrated with TFS GIT's CI to fully automate deployments
-              - Design MVC solution to have 3 different projects deployable to 3 separate locations
+              - Design MVC solution to have 3 different projects deploy-able to 3 separate locations
               - Implemented Selenium Tests to run post deployment
           - Role: Scrum Master
             Details:
@@ -100,7 +100,7 @@ Experience:
               - Upgraded many internal applications from MVC3 to MVC5
               - Developed Unit Tests using Machine Spec, NUnit, and Jasmine
               - Facilitated creating stories for the backlog by working closely with product owners
-              - Used Balsamiq to design wireframes to demonstrate UI/UX solutions for requested stories
+              - Used Balsamiq to design wire-frames to demonstrate UI/UX solutions for requested stories
         Badges: ['.NET', 'C#', 'Team City', 'MVC', 'HTML', 'CSS', 'SASS', 'UX', 'SQL']
   - Employer: Good Sam Family (Good Sam Club)
     Place: Bowling Green, KY
