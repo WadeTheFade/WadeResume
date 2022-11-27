@@ -32,7 +32,7 @@ Experience:
               - Setup Publisher/Subscriber functions across Microsoft Event Hub to update Azure SQL DB with EventTriggers through Entity Framework Core
               - Designed Enterprise Ops solution for clearing exceptions on a daily basis without having to write SQL
               - Designed an event driven solution to replace an n-tier web API project
-              - Created solution to support local development from database to RabbitMQ
+              - Created Docker solution to support local development from database to RabbitMQ
               - Rewrote solution to support local database versioning strategy with AliaSQL
               - Rewrote a legacy C# web API and cut down a 40 min request to 4 min.
               - Replaced legacy stored procedure implementation with Entity Framework 6
