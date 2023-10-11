@@ -18,32 +18,27 @@ BasicInfo:
       Text: PDF
       Link: Wade.Rockhold.pdf
 
-Profile: I thoroughly enjoy application development. Working very close with business/product owners and being part of the process from design to implementation is very rewarding and helps ensure a great UX for the end-user. 
+Profile: Always be learning. Developing is my passion. 
 
 Experience:
-  - Employer: Parallon
+  - Employer: Parallon (HCA Healthcare)
     Place: Nashville, TN
     Positions:
       - Title: Consulting Solution Engineer
         Date: Jun 2017 - Present
         Jobs:
-          - Role: Architect
+          - Role:
             Details:
-              - Setup Publisher/Subscriber functions across Microsoft Event Hub to update Azure SQL DB with EventTriggers through Entity Framework Core
+              - Rebuilt Sharepoint integrated web part into a Blazor site running in .NET 6
+              - Participated in theming Blazor using Mudblazor and Material Design elements
+              - Created Balsamiq wire frames improving user flow through legacy applications
+              - Setup Microsoft Event Hub Publisher/Subscriber functions in the Azure cloud to update Azure SQL DB with Events
+              - Utilized Entity Framework Core to update database from Events published in the cloud
               - Designed Enterprise Ops solution for clearing exceptions on a daily basis without having to write SQL
-              - Designed an event driven solution to replace an n-tier web API project
-              - Created Docker solution to support local development from database to RabbitMQ
-              - Rewrote solution to support local database versioning strategy with AliaSQL
-              - Rewrote a legacy C# web API and cut down a 40 min request to 4 min.
-              - Replaced legacy stored procedure implementation with Entity Framework 6
-              - Designed new UI layouts with Balsamiq
-              - Documented infrastructure install steps to support on-boarding
               - Designed a fully automated testing suite with Unit Tests, Integration Tests, and Selenium Tests
               - Redesigned database structure for easier Entity Framework 6 modeling
               - Designed application solution for safe password handling in services
-          - Role: Developer
-            Details:
-              - Created a C# email templating engine that can email alerts from Azure Functions through SMTP or Microsoft Graph APIs
+              - Created a C# email template engine that can email alerts from Azure Functions through SMTP or Microsoft Graph APIs in the Azure cloud
               - Hooked up service principles to app services to accommodate Microsoft AD authentication with Azure AD
               - Registered Sharepoint subscriptions through Azure authorization for a webhook to Event Hubs
               - Added Azure AD authentication to websites to generate JSON Web Tokens for authorization with Microsoft Graph APIs
@@ -55,20 +50,20 @@ Experience:
               - Model binding all requests to allow Fluent Validation to handle requests
               - Created Windows Service Console app with TopShelf and StructureMap for consumers
               - Implemented an EasyNetQ AutoSubscriber that auto bound all consumers
-              - Wrote test harness for Unit and Selenium Tests
-          - Role: DevOps
-            Details:
               - Deployed functions using Azure CLI to log in and modify rules to access VNET through a YAML pipeline
               - Deployed .NET 5/.NET 6 with custom YAML to Microsoft Azure Cloud
+              - Designed an event driven solution to replace an n-tier web API project
+              - Created Docker solution using images to support local development from database to RabbitMQ
+              - Rewrote solution to support local database versioning strategy with AliaSQL
+              - Rewrote a legacy C# web API and cut down a 40 min request to 4 min.
+              - Replaced legacy stored procedure implementation with Entity Framework 6
+              - Documented infrastructure install steps to support on-boarding
               - Created documentation for developer workflows for GIT training
               - Migrated from Github Enterprise to Github isolated seamlessly
               - Standardized existing deployment strategy to be fully automated in Team Foundation Server
-              - Transitioned off of TFS VS to TFS GIT
               - Designed branching strategy that integrated with TFS GIT's CI to fully automate deployments
               - Design MVC solution to have 3 different projects deploy-able to 3 separate locations
               - Implemented Selenium Tests to run post deployment
-          - Role: Scrum Master
-            Details:
               - Created a document for metrics the current Azure DevOps was able to show to facilitate our forming/storming/norming of teams
               - Helped form a team through and teach Agile practices to normalize work loads 
               - Developed a template of questions to ask the team when designing a solution to help drive estimates
@@ -77,7 +72,7 @@ Experience:
               - Guided team to develop Definition of Done
               - Provided training on the roles of a Product Owner
               - Developed and maintained a forecast with best case/worst case average trends
-        Badges: ['.NET','C#', 'Azure', 'MVC', 'Javascript', 'SQL', 'HTML', 'UX', 'CSS', 'Agile']
+        Badges: ['.NET','C#', 'Azure Cloud', 'Blazor', 'MVC', 'Entity Framework', 'Javascript', 'SQL', 'HTML', 'UX', 'CSS', 'Agile']
   - Employer: Envolve PeopleCare
     Place: Nashville, TN
     Positions:
@@ -125,7 +120,7 @@ Experience:
               - Manage code release through Team Foundation on regular basis.
               - Self-managed projects from design to deployment utilizing agile development.
               - Redesign high profile details page heavily utilizing JQuery.
-              - Lead a team in developing UX/UI elements on a high profile ecommerce website.
+              - Lead a team in developing UX/UI elements on a high profile e-commerce website.
               - Responsible for cross-browser CSS testing across 50+ sites.
               - Themed and skinned external PHP sites consisting of Wordpress, various communities, and micro sites.
               - Maintain multiple Coldfusion websites from service requests for regular maintenance.
@@ -155,22 +150,24 @@ Skills:
       - PHP
       - MySQL
       - Powershell
+      - Azure Cloud
       - DAX
   - Family: Frameworks
     Items:
+      - Blazor
+      - Razor Pages
       - MVC
       - Hugo
       - React
-      - Selinium
+      - Selenium
   - Family: Developer Tools
     Items:
       - Git
-      - Azure
+      - Azure Cloud
       - Visual Studio
       - Resharper
       - SSMS
       - SQL Server Profiler
-      - 
   - Family: Misc
     Items:
       - Beyond Compare
