@@ -29,6 +29,7 @@ Experience:
         Jobs:
           - Role:
             Details:
+              - Built Blazor CRUD utilizing Fluent Validation in conjunction with xUnit tests
               - Rebuilt Sharepoint integrated web part into a Blazor site running in .NET 6
               - Participated in theming Blazor using Mudblazor and Material Design elements
               - Created Balsamiq wire frames improving user flow through legacy applications
@@ -67,12 +68,9 @@ Experience:
               - Created a document for metrics the current Azure DevOps was able to show to facilitate our forming/storming/norming of teams
               - Helped form a team through and teach Agile practices to normalize work loads 
               - Developed a template of questions to ask the team when designing a solution to help drive estimates
-              - Developed agile solution for several teams
-              - Led morning scrums
               - Guided team to develop Definition of Done
-              - Provided training on the roles of a Product Owner
               - Developed and maintained a forecast with best case/worst case average trends
-        Badges: ['.NET','C#', 'Azure Cloud', 'Blazor', 'MVC', 'Entity Framework', 'Javascript', 'SQL', 'HTML', 'UX', 'CSS', 'Agile']
+        Badges: ['.NET','C#', 'Azure Cloud', 'Blazor', 'MVC', 'Entity Framework', 'SQL', 'HTML', 'UX', 'CSS', 'Agile']
   - Employer: Envolve PeopleCare
     Place: Nashville, TN
     Positions:

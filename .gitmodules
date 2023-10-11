@@ -2,3 +2,5 @@
 	path = public
 	url = https://github.com/WadeTheFade/WadeFade.com.git
 	branch = main
+[submodule "themes/almeida-cv"]
+	url = https://github.com/ineesalmeida/almeida-cv.git
